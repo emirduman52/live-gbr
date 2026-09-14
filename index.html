@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LiVe GbR — Italian Women's Fashion, Erding</title>
+  <meta name="description" content="LiVe GbR is an Italian women's fashion boutique in Erding, Bavaria. Curated coats, blouses, trousers, leather bags, and accessories." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.live-erding.com" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.live-erding.com" />
+  <meta property="og:title" content="LiVe GbR — Italian Women's Fashion, Erding" />
+  <meta property="og:description" content="A boutique for Italian women's fashion in the heart of Erding, Bavaria. Clothing, leather bags, and accessories, curated for quality." />
+  <meta property="og:locale" content="en_DE" />
+
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="src/styles/tokens.css" />
+  <link rel="stylesheet" href="src/styles/main.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER / NAV
+  ============================================================ -->
+  <header class="site-header" role="banner">
+    <nav class="nav-inner" aria-label="Primary navigation">
+      <a href="#hero" class="logo" aria-label="LiVe GbR – back to top">
+        <span class="logo-live">LiVe</span><span class="logo-gbr"> GbR</span>
+      </a>
+      <button
+        class="nav-toggle"
+        aria-controls="nav-menu"
+        aria-expanded="false"
+        aria-label="Open navigation menu"
+      >
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#collections" class="nav-link">Collections</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#visit" class="nav-link">Visit</a></li>
+        <li>
+          <a href="https://www.instagram.com/live_erding" class="nav-link nav-link--ig" target="_blank" rel="noopener noreferrer" aria-label="LiVe GbR on Instagram">
+            Instagram
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============================================================
+         HERO — lookbook rotator
+    ============================================================ -->
+    <section class="hero" id="hero" aria-label="Lookbook hero">
+      <div class="hero__slides" aria-live="polite" aria-atomic="true">
+
+        <article class="hero__slide hero__slide--1 is-active" aria-label="Slide 1 of 3">
+          <div class="hero__slide-bg"></div>
+          <div class="hero__content">
+            <p class="hero__eyebrow">Current Season</p>
+            <h1 class="hero__headline">Italian Fashion,<br /><em>In Erding.</em></h1>
+            <p class="hero__sub">A curated boutique for women who value craft over trend.</p>
+          </div>
+        </article>
+
+        <article class="hero__slide hero__slide--2" aria-label="Slide 2 of 3">
+          <div class="hero__slide-bg"></div>
+          <div class="hero__content">
+            <p class="hero__eyebrow">Leather &amp; Accessories</p>
+            <h1 class="hero__headline">Bags built<br /><em>to last.</em></h1>
+            <p class="hero__sub">Premium Italian leather, selected for texture, form, and longevity.</p>
+          </div>
+        </article>
+
+        <article class="hero__slide hero__slide--3" aria-label="Slide 3 of 3">
+          <div class="hero__slide-bg"></div>
+          <div class="hero__content">
+            <p class="hero__eyebrow">The Boutique</p>
+            <h1 class="hero__headline">Landshuterstr. 12,<br /><em>Erding.</em></h1>
+            <p class="hero__sub">Step in. The collection is waiting.</p>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Slide controls -->
+      <div class="hero__controls" role="group" aria-label="Lookbook navigation">
+        <button class="hero__dot is-active" data-slide="0" aria-label="Go to slide 1" aria-current="true"></button>
+        <button class="hero__dot" data-slide="1" aria-label="Go to slide 2"></button>
+        <button class="hero__dot" data-slide="2" aria-label="Go to slide 3"></button>
+      </div>
+
+      <div class="hero__scroll-cue" aria-hidden="true">
+        <span class="scroll-line"></span>
+        <span class="scroll-label">Scroll</span>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         COLLECTIONS — categorised highlights
+    ============================================================ -->
+    <section class="collections" id="collections" aria-labelledby="collections-heading">
+      <div class="collections__header">
+        <h2 class="section-label" id="collections-heading">What we carry</h2>
+      </div>
+
+      <div class="collections__grid">
+
+        <article class="collection-card collection-card--clothing">
+          <div class="collection-card__visual" aria-hidden="true">
+            <div class="cc-shape cc-shape--coat"></div>
+          </div>
+          <div class="collection-card__body">
+            <h3 class="collection-card__title">Clothing</h3>
+            <p class="collection-card__desc">
+              Coats with structure, blouses in considered fabrics, trousers that fit properly.
+              Each piece sourced from Italian makers.
+            </p>
+            <ul class="collection-card__list" role="list">
+              <li>Coats</li>
+              <li>Blouses</li>
+              <li>Trousers</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="collection-card collection-card--bags">
+          <div class="collection-card__visual" aria-hidden="true">
+            <div class="cc-shape cc-shape--bag"></div>
+          </div>
+          <div class="collection-card__body">
+            <h3 class="collection-card__title">Leather Bags</h3>
+            <p class="collection-card__desc">
+              Premium leather bags from Italy — totes, shoulder bags, clutches.
+              Materials and construction you notice on first touch.
+            </p>
+          </div>
+        </article>
+
+        <article class="collection-card collection-card--accessories">
+          <div class="collection-card__visual" aria-hidden="true">
+            <div class="cc-shape cc-shape--acc"></div>
+          </div>
+          <div class="collection-card__body">
+            <h3 class="collection-card__title">Accessories</h3>
+            <p class="collection-card__desc">
+              Scarves, belts, and finishing pieces that complete a look without overwhelming it.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT
+    ============================================================ -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <div class="about__layout">
+        <div class="about__accent-col" aria-hidden="true">
+          <div class="about__accent-block"></div>
+          <span class="about__accent-text">Erding, Bayern</span>
+        </div>
+        <div class="about__text-col">
+          <h2 class="section-label" id="about-heading">The boutique</h2>
+          <p class="about__lead">
+            LiVe GbR sits in the centre of Erding. It is a boutique in the original sense: a single space with a deliberate edit.
+          </p>
+          <p class="about__body">
+            Everything in the store is Italian women's fashion. Not a broad category with a few Italian pieces — Italian fashion, full stop. Coats, blouses, trousers, leather bags, and accessories, each chosen for quality and for how they work together.
+          </p>
+          <p class="about__body">
+            The experience is personal. There is no algorithm suggesting what you might like. There is the collection, and there is a fitting room.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         INSTAGRAM STRIP
+    ============================================================ -->
+    <section class="instagram-strip" aria-labelledby="ig-heading">
+      <div class="ig-inner">
+        <h2 class="section-label" id="ig-heading">On Instagram</h2>
+        <p class="ig-handle">
+          <a
+            href="https://www.instagram.com/live_erding"
+            class="ig-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit LiVe GbR on Instagram @live_erding"
+          >@live_erding</a>
+        </p>
+        <p class="ig-note">Current stock, new arrivals, and looks from the boutique — updated regularly.</p>
+        <a
+          href="https://www.instagram.com/live_erding"
+          class="btn btn--outline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Follow on Instagram
+        </a>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         VISIT / CONTACT
+    ============================================================ -->
+    <section class="visit" id="visit" aria-labelledby="visit-heading">
+      <div class="visit__layout">
+        <div class="visit__text">
+          <h2 class="section-label" id="visit-heading">Find us</h2>
+          <address class="visit__address">
+            <span class="visit__street">Landshuterstr. 12</span>
+            <span class="visit__city">85435 Erding, Bayern</span>
+            <span class="visit__country">Germany</span>
+          </address>
+          <div class="visit__phone-wrap">
+            <a href="tel:+498122-14640" class="visit__phone">08122 – 14640</a>
+          </div>
+          <a
+            href="https://www.instagram.com/live_erding"
+            class="btn btn--primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+        </div>
+        <div class="visit__map-placeholder" aria-label="Map location indicator">
+          <div class="map-pin-graphic" aria-hidden="true">
+            <div class="map-grid">
+              <div class="map-line map-line--h"></div>
+              <div class="map-line map-line--v"></div>
+            </div>
+            <div class="map-pin">
+              <span class="map-pin__label">LiVe GbR</span>
+            </div>
+          </div>
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=Landshuterstr.+12,+85435+Erding"
+            class="map-directions-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Get directions &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-name">LiVe GbR</p>
+      <p class="footer-address">Landshuterstr. 12 · 85435 Erding · Bayern</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="https://www.instagram.com/live_erding" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="tel:+498122-14640">08122 – 14640</a>
+      </nav>
+      <p class="footer-legal">&copy; <span id="footer-year"></span> LiVe GbR. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       STICKY MOBILE CTA BAR
+  ============================================================ -->
+  <div class="sticky-cta" role="complementary" aria-label="Quick contact actions">
+    <a href="tel:+498122-14640" class="sticky-cta__btn sticky-cta__btn--call" aria-label="Call LiVe GbR">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+      </svg>
+      <span>Call</span>
+    </a>
+    <a
+      href="https://www.google.com/maps/search/?api=1&query=Landshuterstr.+12,+85435+Erding"
+      class="sticky-cta__btn sticky-cta__btn--directions"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Get directions to LiVe GbR"
+    >
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+        <polygon points="3 11 22 2 13 21 11 13 3 11"/>
+      </svg>
+      <span>Directions</span>
+    </a>
+  </div>
+
+  <script src="src/scripts/main.js"></script>
+</body>
+</html>
