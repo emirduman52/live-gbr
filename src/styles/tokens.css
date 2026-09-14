@@ -1,0 +1,52 @@
+:root {
+  /* ── Colour palette ── */
+  --color-black:       #000000;
+  --color-white:       #FFFFFF;
+  --color-gold:        #C8A97E;
+  --color-gold-light:  #E2C9A3;
+  --color-gold-dark:   #A8845A;
+  --color-surface:     #F7F4F0;   /* warm off-white, not pure white */
+  --color-surface-2:   #EFEBE5;
+  --color-text:        #111111;
+  --color-text-muted:  #6B6560;
+  --color-border:      #D8D0C6;
+
+  /* ── Spacing scale ── */
+  --space-2xs: 0.25rem;
+  --space-xs:  0.5rem;
+  --space-s:   0.75rem;
+  --space-m:   1rem;
+  --space-l:   1.5rem;
+  --space-xl:  2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-4xl: 7rem;
+
+  /* ── Type scale (fluid) ── */
+  --text-xs:   clamp(0.7rem,   0.65rem + 0.25vw, 0.8rem);
+  --text-s:    clamp(0.85rem,  0.8rem  + 0.25vw, 0.95rem);
+  --text-base: clamp(1rem,     0.95rem + 0.3vw,  1.1rem);
+  --text-l:    clamp(1.1rem,   1rem    + 0.5vw,  1.3rem);
+  --text-xl:   clamp(1.3rem,   1.1rem  + 1vw,    1.8rem);
+  --text-2xl:  clamp(1.8rem,   1.4rem  + 2vw,    2.8rem);
+  --text-3xl:  clamp(2.4rem,   1.8rem  + 3vw,    4.2rem);
+  --text-4xl:  clamp(3rem,     2rem    + 4vw,    5.5rem);
+
+  /* ── Font stacks ── */
+  --font-serif: 'Cormorant Garamond', 'Georgia', serif;
+  --font-sans:  'Inter', 'Helvetica Neue', Arial, sans-serif;
+
+  /* ── Layout ── */
+  --max-width:       1200px;
+  --max-width-text:  680px;
+  --gutter:          clamp(1rem, 5vw, 2rem);
+  --nav-height:      clamp(3.5rem, 5vw, 4.5rem);
+
+  /* ── Motion ── */
+  --ease-out:  cubic-bezier(0.22, 1, 0.36, 1);
+  --duration:  0.45s;
+
+  /* ── Border radius (restrained) ── */
+  --radius-s: 2px;
+  --radius-m: 4px;
+}
